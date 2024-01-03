@@ -18,6 +18,4 @@ contract TokenCorrect is Token {
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
         balance[_to] += _amt;
-    }
-}
-
+    
