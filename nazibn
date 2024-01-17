@@ -6,4 +6,4 @@ interface Token {
 }
 
 contract TokenCorrect is Token {
-    mapping (address => uint)
+    mapping 
