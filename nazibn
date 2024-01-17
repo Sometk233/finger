@@ -6,4 +6,3 @@ interface Token {
 }
 
 contract TokenCorrect is Token {
-    mapping 
